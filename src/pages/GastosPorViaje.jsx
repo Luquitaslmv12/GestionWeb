@@ -10,7 +10,7 @@ import {
   orderBy,
   query,
 } from "firebase/firestore";
-import { db } from "../services/firebase";
+import { db } from "../services/Firebase";
 import { useAuth } from "../context/AuthContext";
 import Navbar from "../components/Navbar";
 
